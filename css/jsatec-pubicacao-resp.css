@@ -1,0 +1,470 @@
+@media screen and (max-width:1100px){
+    div#global {
+        width: 98%;
+        margin: 1rem 1% 0 1%;
+    }
+
+    div#global div.globalsub {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    div#global h1 {
+        font: normal 20pt arial, helvetica, sans-serif;
+
+    }
+
+    div#global div.secleft {
+        width: 100%;
+    }
+
+
+    div#global div.secleft div.maior {
+        width: 100%;
+        border-radius: 8px;
+        padding: 1rem 0;
+    }
+
+
+
+
+    div#global div.secleft a.maior img {
+        width: 40%;
+        height: 19rem;
+        border-radius: 8px;
+        margin-left: 0.5%;
+    }
+
+
+    div#global div.secleft a.maior div {
+        width: 58%;
+        height: 17rem;
+        margin-left: 1%;
+    }
+
+    div#global div.secleft a.maior div span {
+        font: bold 12pt helvetica, arial, sans-serif;
+    }
+
+    div#global div.secleft a.maior div h1 {
+        font: bold 15pt helvetica, arial, sans-serif;
+        padding: 0;
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+
+
+    div#global div.secleft a.maior div p {
+        font: normal 14pt helvetica, arial, sans-serif;
+        color: #ffffff;
+        width: 99%;
+    }
+
+    div#global div.secleft div.maior:hover {
+        transform: scale(1.02);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /***********************************/
+
+    /***********************************/
+
+    div#global div.secleft div.outrosposts {
+        width: 100%;
+        margin-top: 1rem;
+        border-radius: 8px 8px 0 0;
+    }
+
+    div#global div.secleft div.outrosposts div.sub {
+        width: 32%;
+        padding: 0.5rem 0 0 0;
+        margin-top: 1rem;
+        border-radius: 8px 8px 0 0;
+    }
+
+    div#global div.secleft div.outrosposts div.sub a,
+    div.secright div.sub a {
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+    }
+
+    div#global div.secleft div.outrosposts div.sub .conteudo {
+        height: 30rem;
+    }
+
+    div#global div.secleft div.outrosposts div.sub a span,
+    div.secright div.sub a span {
+        font: bold 12pt helvetica, arial, sans-serif;
+        margin-left: 2%;
+    }
+
+
+
+    div#global div.secleft div.outrosposts div.sub .conteudo a img {
+        margin: 0 1%;
+        height: 20rem;
+    }
+
+
+    div#global div.secleft div.outrosposts div.sub .conteudo a h1 {
+        font: bold 15pt helvetica, arial, sans-serif;
+        margin: 0;
+        text-transform: uppercase;
+        padding: 0.5rem 0;   
+        text-align: left;   
+    }
+
+    div#global div.secleft div.outrosposts .conteudo a p {
+        font: normal 13pt helvetica, arial, sans-serif;
+        text-align: justify;
+        width: 99%;
+        height: 0.5%;
+    }
+
+
+
+    /******************************************/
+
+    div.reaccao {
+        width: 40%;
+        margin-left: 56%;
+        padding: 1rem;
+        border-radius: 20px;
+    }
+
+    /********************************/
+
+
+
+    div.reacc {
+        width: 98%;
+        padding: 0.5rem 0;
+        margin: 0 1%;
+    }
+
+    div.reacc div img {
+        width: 2rem;
+    }
+
+    div.reacc div span {
+        font: bold 13pt helvetica, arial, sans-serif;
+    }
+
+
+
+    div.reaccao div.comentario {
+        margin-left: auto;
+    }
+
+
+
+    div.reaccao div img {
+        width: 2.1rem;
+    }
+
+    div.reaccao div span {
+        font: bold 13pt helvetica, arial, sans-serif;
+    }
+
+
+
+
+
+
+    /***************************************************************/
+    /***************  div#global div.secright   ********************/
+
+    div#global div.secright {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 0.5%;
+        margin-top: 2.5rem;
+    }
+
+    div#global div.secright div.sub {
+        width: 32%;
+        margin: 1.5rem 0;        border-radius:0;
+
+    }
+
+
+    div.secright div.sub .conteudo {
+        height: auto; 
+        height: 25rem; 
+    }
+
+
+    div.secright div.sub .conteudo a img {
+        height: 20rem;
+        border-radius:0;
+    }
+
+
+    div.secright div.sub .conteudo a h2 {
+        font: bold 13pt helvetica, arial, sans-serif;
+        margin: 0;
+        padding: 0.8rem 0;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************/
+
+
+@media screen and (max-width:800px){
+    
+    div.reacc div img {
+        width: 1.9rem;
+    }
+
+    div.reacc div span {
+        font: bold 12pt helvetica, arial, sans-serif;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/**********************************/
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px){
+    div#global h1 {
+        font: normal 16pt arial, helvetica, sans-serif;
+
+    }
+
+    div#global div.secleft {
+        width: 100%;
+    }
+
+
+    div#global div.secleft div.maior {
+        width: 100%;
+        border-radius: 8px;
+        padding: 0.3rem 0;
+    }
+
+
+
+
+    div#global div.secleft a.maior img {
+        width: 38%;
+        height: 13rem;
+        border-radius: 8px;
+        margin-left: 0.5%;
+    }
+
+
+    div#global div.secleft a.maior div {
+        width: 58%;
+        height: 12rem;
+        margin-left: 1%;
+    }
+
+    div#global div.secleft a.maior div span {
+        font: bold 10pt helvetica, arial, sans-serif;
+    }
+
+    div#global div.secleft a.maior div h1 {
+        font: bold 11pt helvetica, arial, sans-serif;
+        padding: 0;
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+
+
+    div#global div.secleft a.maior div p {
+        font: normal 11pt helvetica, arial, sans-serif;
+        color: #ffffff;
+        width: 99%;
+    }
+
+    div#global div.secleft div.maior:hover {
+        transform: scale(1.02);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /***********************************/
+
+    /***********************************/
+
+    div#global div.secleft div.outrosposts {
+        width: 100%;
+        margin-top: 1rem;
+        border-radius: 8px 8px 0 0;
+    }
+
+    div#global div.secleft div.outrosposts div.sub {
+        width: 47%;
+        padding: 0.5rem 0 0 0;
+        margin-top: 1rem;
+        border-radius: 8px 8px 0 0;
+    }
+
+    div#global div.secleft div.outrosposts div.sub a,
+    div.secright div.sub a {
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+    }
+
+    div#global div.secleft div.outrosposts div.sub .conteudo {
+        height: 21rem;
+    }
+
+    div#global div.secleft div.outrosposts div.sub a span,
+    div.secright div.sub a span {
+        font: bold 9pt helvetica, arial, sans-serif;
+        margin-left: 2%;
+    }
+
+
+
+    div#global div.secleft div.outrosposts div.sub .conteudo a img {
+        margin: 0 1%;
+        height: 15rem;
+    }
+
+
+    div#global div.secleft div.outrosposts div.sub .conteudo a h1 {
+        font: bold 10pt helvetica, arial, sans-serif;
+        margin: 0;
+        text-transform: uppercase;
+        padding: 0.5rem 0;      
+    }
+
+    div#global div.secleft div.outrosposts .conteudo a p {
+        font: normal 11pt helvetica, arial, sans-serif;
+        text-align: justify;
+        width: 99%;
+        height: 0.5%;
+    }
+
+
+
+    /******************************************/
+
+    div.reaccao {
+        width: 40%;
+        margin-left: 56%;
+        padding: 0.3rem;
+        border-radius: 20px;
+    }
+
+    /********************************/
+
+
+
+    div.reacc {
+        width: 98%;
+        padding: 0.5rem 0;
+        margin: 0 1%;
+    }
+
+    div.reacc div img {
+        width: 1.3rem;
+    }
+
+    div.reacc div span {
+        font: bold 9.5pt helvetica, arial, sans-serif;
+    }
+
+
+
+    div.reaccao div.comentario {
+        margin-left: auto;
+    }
+
+
+
+    div.reaccao div img {
+        width: 1.3rem;
+    }
+
+    div.reaccao div span {
+        font: bold 11pt helvetica, arial, sans-serif;
+    }
+
+
+
+
+
+
+    /***************************************************************/
+    /***************  div#global div.secright   ********************/
+
+    div#global div.secright {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 0.5%;
+        margin-top: 2.5rem;
+    }
+
+    div#global div.secright div.sub {
+        width: 47%;
+        margin: 1.5rem 0;        
+        border-radius:0;
+
+    }
+
+
+    div.secright div.sub .conteudo {
+        height: 19rem; 
+    }
+
+
+    div.secright div.sub .conteudo a img {
+        height: 15rem;
+        border-radius:0;
+    }
+
+
+    div.secright div.sub .conteudo a h2 {
+        font: bold 10pt helvetica, arial, sans-serif;
+        margin: 0;
+        padding: 0.8rem 0;
+        
+    }
+
+    
+.quartopost{
+    display: block;
+}
+}
